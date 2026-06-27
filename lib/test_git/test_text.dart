@@ -9,7 +9,7 @@ class Test extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: const [
         Text(
-          'Hello, Flutter!',
+          'Hello, Buddy!',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         Text(
