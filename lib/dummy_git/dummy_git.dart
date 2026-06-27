@@ -5,18 +5,14 @@ class Test extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: const [
-        Text(
+    return Scaffold(
+      appBar: AppBar(title: const Text('Test')),
+      body: const Center(
+        child: Text(
           'Hello, Flutter!',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
-        Text(
-          'Hello, Prasanth!',
-          style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
-        ),
-      ],
+      ),
     );
   }
 }
